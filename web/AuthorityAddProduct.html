@@ -1,0 +1,168 @@
+<html>
+<head>
+    <title> Add Product</title>
+    <link rel="stylesheet" type="text/css" href="AddProduct.css"/>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="AddProduct.js"></script>
+
+</head>
+
+  
+
+    <form action="AddProduct" method="post" id="registration_form">
+     <div id="rectangle">
+  
+      <div id="circle">
+        <div id="ims"> IMS </div>
+        <span>CU</span>
+      </div>
+  
+     </div>
+
+     <p id="hey"> CHANDIGARH UNIVERSITY </p>
+
+     <p id="imst"> INFORMATION MANAGEMENT SYSTEM </p>
+
+     <div id="rectangleleft"> </div>
+       
+     <div id="rectangleright"> </div>
+
+     <div id="rectanglebottom">
+       <div id="footer">
+                    <p>
+                        Chandigarh University, Gharuan, Mohali (Punjab)<br />
+                        General Helpline No:+91-160-3051003, +91-160-3014444<br />
+                        24*7*365 Security  Helpline Number:+91-8288094308<br />
+                        Wifi Hostels Helpline No. 7347017909 (Mr. Simranjeet Singh)
+                    </p>
+       </div>
+     </div>
+
+    <div id="rectanglemiddle" >
+       <fieldset name="pquestion" id="pquestion">
+         <legend id="heading"> PRODUCT INFORMATION </legend>
+
+       </br>
+       <div id="first">
+           <label id="lblproductname" for="product_name"> Product Name :  </label>
+           <input type="text" id="productname" class="productname"  name="productname" placeholder="Enter Product Name"  > 
+           <span id="span1">Valid</span> 
+           <span id="span2">Invalid</span> 
+              
+           <br><br>
+        </div>
+
+       <div id="second">
+           <label for="product_brand"> Product Brand : </label>
+           <input type="text" id="productbrand" class="productbrand"   name="productbrand" placeholder="Enter Product Brand"> 
+           <span id="span3">Valid</span> 
+           <span id="span4">Invalid</span> 
+            
+          </br> </br>
+       </div>
+
+           <label for="barcode"> Barcode : </label>
+           <input type="number" id="barcode" name="barcode" placeholder="Enter Barcode"> </br> </br>
+           <span id="span5">Valid</span> 
+           <span id="span6">Invalid</span> 
+
+       </fieldset>
+
+        <fieldset name="Employee_Address" id="EmployeeAddress">
+            <legend id="heading"> PRODUCT PRICES </legend>
+
+           <label for="cost_price"> Cost Price : </label>
+           <input type="number" id="cp" name="costprice" placeholder="Enter Cost Price" ></br> </br>
+           <span id="span7">Valid</span> 
+           <span id="span8">Invalid</span> 
+
+           <label for="selling_price"> Selling Price : </label>
+           <input type="number" id="sellingprice" name="sellingprice" placeholder="Enter Selling Price"> </br></br>
+           <span id="span9">Valid</span> 
+           <span id="span10">Invalid</span> 
+
+           <label for="minimum_price"> Minimum Price : </label>
+           <input type="number" id="minimumprice" name="minimumprice" placeholder="Enter Minimum Price " ></br> </br>
+           <span id="span11">Valid</span> 
+           <span id="span12">Invalid</span> 
+
+           <label for="maximum_price"> Maximum Price : </label>
+           <input type="number" id="maximumprice" name="maximumprice" placeholder="Enter Maximum Price "></br> </br>
+           <span id="span13">Valid</span> 
+           <span id="span14">Invalid</span> 
+
+        </fieldset>
+        <fieldset name="Product_Quality" id="productquality">
+            <legend id="heading"> PRODUCT QUANTITY AND QUALITY </legend>
+
+            <label for="product_quantity"> Product Quantity : </label>
+            <input type="number" id="productquantity" name="productquantity" placeholder="Enter Product Quantity" ></br> </br>
+            <span id="span15">Valid</span> 
+            <span id="span16">Invalid</span> 
+
+            <label for="quality_rating"> Quality Rating : </label>
+            <input type="number" id="qualityrating" name="qualityrating" placeholder="Enter Rating " ></br> </br>
+
+           <label for="manufacturing_date"> Manufacturing Date : </label>
+           <input type="date" id="manufacturingdate" name="manufacturingdate" placeholder="Enter Manufacturing Date "></br> </br>
+           <span id="span17">Valid</span> 
+           <span id="span18">Invalid</span> 
+
+           <label for="expire_date"> Expired Date : </label>
+           <input type="date" id="expiredate" name="expiredate" placeholder="Enter Expire Date " ></br> </br>
+           <span id="span19">Valid</span> 
+           <span id="span20">Invalid</span> 
+
+        </fieldset>
+<!--
+        <form action="AddEmployee" method="post">
+        <fieldset name="Employee_Otp" id="otpheader">
+            <legend id="heading"> OTP </legend>
+
+            <label for="otp"> OTP :  </label>
+            <input type="text" id="otp12" name="otp" placeholder="Enter OTP"> </br> </br>
+            <button id="verifyOtp" name="action" value="verifyOTP"> VERIFY OTP </button>
+        
+        </fieldset>
+        </form>
+-->
+        <button id="backbutton" name="action" value="back"> BACK </button>
+        <button id="generatebutton" name="action" value="submit"> SUBMIT </button>	
+</div> 
+    </form>
+
+<div id="rectanglecyan"> 
+    <div id="attendence"> ADD PRODUCT </div>
+</div>
+
+<div class="link" >
+       <div id="open">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">close &times;</a>
+  <a href="EmployeeInformati.html">Add  Employee</a>
+  <a href="CustomerInformation.html">Add Customer</a>
+  <a href="ProductProcessing1.jsp">Product Packing</a>
+  <a href="ProductProcessing2.jsp">Product Outing</a>
+  <a href="AuthorityPriceUpdate.jsp">Update Price</a>
+  <a href="AuthorityStockUpdate.jsp">Update Stock</a>
+  <a href="AuthorityAddProduct.html">Add Product</a>
+  <a href="UpdateProduct.jsp">Update Product Detail</a>
+  <a href="OrderViewByAuthority.jsp">Order History</a>
+  <a href="AuthorityStockDetail.jsp">Stock Details</a>
+  <a href="AuthorityPasswordUpdate.html">Password Update</a>
+  
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+</div>
+          
+		  <a class="home" href="">HOME</a></li>   
+</div>
+</form>
+<script type="text/javascript" src="CustomerHome.js" ></script>
+
+</html>

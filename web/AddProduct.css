@@ -1,0 +1,484 @@
+#rectangle
+{
+	position:absolute;
+	width:100%;
+	height:140px;
+	margin-left:-10px;
+	margin-top:35px;
+	background:blue;
+}
+#rectangle #circle
+{
+	position:relative;
+	width:100px;
+	height:100px;
+	top:15px;
+	left:150px;
+	border-radius:50px;
+	background:red;
+	
+}
+
+#circle #ims
+{
+	position:relative;
+	top:20px;
+    left:100px;
+	font-size:50px;
+	font-weight:bold;
+	font-family:sans-serif;
+	color:black;
+}
+
+#hey
+{
+	position:absolute;
+	top:71px;
+	left:350px;
+	font-family:sans-serif;
+	color:gray;
+}
+
+#imst
+{
+    position:absolute;
+    top:83px;
+	left:350px;
+	font-size:20px;
+	font-weight:bold;
+	font-family:sans-serif;
+	color:black;	
+}
+span
+{
+	position:absolute;
+	top:20px;
+	margin-left:31px;
+	font-size:50px;
+	font-weight:bold;
+	font-family:sans-serif;
+	color:white;
+	
+}
+
+#rectangleleft
+{
+    position:absolute;
+	width:202px;
+	height:695px;
+	margin-left:-10px;
+	margin-top:180px;
+	background:dimgray;
+}
+
+#rectangleright
+{
+    position:absolute;
+	width:190px;
+	height:695px;
+	margin-left:1148px;
+	margin-top:180px;
+	background:dimgray;	
+}
+
+
+#rectanglebottom
+{
+    position:absolute;
+	width:100%;
+	height:164px;
+	margin-left:-10px;
+	margin-top:880px;
+	background:dimgray;	
+}
+
+#rectanglecyan
+{
+    position:absolute;
+    left:206px;
+	width:70%;
+	top:195px;
+    height:35px;
+    background:cyan;	
+}
+
+#rectanglecyan #attendence
+{
+	position:absolute;
+	left:350px;
+	top:0px;
+	color:white;
+	font-size:25px;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+
+#rectanglemiddle
+{
+	position:absolute;
+	left:206px;
+	top:235px;
+	width:70%;
+	height:655px;
+    background: silver;
+}
+
+#rectanglemiddle #EmployeeAddress
+{
+	position:absolute;
+	left:100px;
+	top:175px;
+	width:75%;
+	height:170px;
+    font-weight:bold;
+    color:black;	
+}
+
+#rectanglemiddle #productquality
+{
+	position:absolute;
+	left:100px;
+	top:370px;
+	width:75%;
+	height:170px;
+	font-weight:bold;
+	color:black;
+}
+
+
+
+#rectanglemiddle #pquestion
+{
+	position:absolute;
+	left:100px;
+	top:05px;
+	width:75%;
+	height:140px;
+    font-weight:bold;
+    color:black;	
+}
+
+#rectanglemiddle #otpheader
+{
+	position:absolute;
+	left:100px;
+	top:700px;
+	width:75%;
+	height:40px;
+    font-weight:bold;
+    color:black;
+}
+
+ #backbutton
+{
+	position:absolute;
+	border:none;
+	outline:none;
+	left:160px;
+	top:580px;
+	width:130px;
+	height:45px;
+	font-size:18px;
+	cursor:pointer;
+	border-radius:15px;
+	color:white;
+	background:black;
+}
+
+#generatebutton
+{
+	position:absolute;
+	border:none;
+	outline:none;
+	left:640px;
+	top:580px;
+	width:130px;
+	height:45px;
+	font-size:18px;
+	cursor:pointer;
+	border-radius:15px;
+	color:white;
+	background:black;
+}
+
+#rectanglemiddle #submitbutton
+{
+	position:absolute;
+	border:none;
+	outline:none;
+	left:650px;
+	top:600px;
+	width:130px;
+	height:45px;
+	font-size:18px;
+	cursor:pointer;
+	border-radius:15px;
+	color:white;
+	background:blue;
+}
+
+ #open 
+{
+	position:absolute;
+	top:-20px;
+	left:-45px;
+}
+
+.sidenav 
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover
+{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+	color:yellow;
+	background:yellow;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.link
+{
+	position:fixed;
+	width:100%;
+	margin-top:-8px;
+	margin-left:-10px;
+	background:red;
+	height:43px;
+}
+
+
+
+.link .searchtext
+{
+	position:absolute;
+	top:10px;
+	left:100px;
+	width:220px;
+	color:white;
+	text-decoration:none;
+}
+
+.link .feepayment
+{
+	position:absolute;
+	top:10px;
+	left:350px;
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+}
+
+.link .importantlink
+{
+	position:absolute;
+	top:10px;
+	left:500px;
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+}
+
+
+.link .studentcenter
+{
+	position:absolute;
+	top:10px;
+	left:685px;
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+}
+
+
+.link .culive
+{
+	position:absolute;
+	top:10px;
+	left:880px;
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+}
+
+.link .name
+{
+	position:absolute;
+	top:10px;
+	left:1020px;
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+}
+
+
+.link .home
+{
+	position:absolute;
+	top:10px;
+	left:1120px;
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+}
+
+.link #log
+{
+	position:absolute;
+	top:10px;
+	left:1200px;
+	font-size:20px;
+	color:white;
+	text-decoration:italic;
+}
+
+#rectanglebottom #footer
+{
+	position:absolute;
+	top:20px;
+	left:450px;
+	color:white;
+	text-decoration:none;
+}
+
+
+
+
+i.fa {
+	font-size: 9px;
+	margin-left: 270px;
+	margin-top: -19px;
+  }
+  
+  #success, #success2{
+	color: green;
+	display:none;
+  }
+  
+  #error, #error2{
+	color: red;
+	display:none;
+  }
+  #warning ,#warning2{
+	color: red;
+	display:none;
+  }
+
+  #span1 , #span3 , #span5 , #span7 , #span9 , #span11 , #span13 , #span15 , #span17 , #span19{
+	font-size: 15px;
+	
+	color: green;
+	display:none;
+  }
+
+  #span2 , #span4 , #span6 , #span8 , #span10 , #span12 , #span14 , #span16 , #span18 , #span20{	
+	font-size: 15px;
+	
+	color: red;
+	display: none;
+		
+  }
+
+  #span1 , #span2
+  {
+	margin-left: 280px;
+  }
+
+  #span3 ,#span4
+  {
+	margin-left: 280px;
+	  margin-top: 45px;
+  }
+
+  #span5 , #span6
+  {
+	  position: absolute;
+	  margin-left: 240px;
+	  margin-top: 85px;
+  }
+
+  #span7 , #span8
+  {
+	  position: absolute;
+	  margin-left: 250px;
+	  margin-top: -13px;
+  }
+
+  #span9 , #span10
+  {
+	position: absolute;
+	margin-left: 270px;
+	  margin-top: 25px;
+  }
+
+  #span11 , #span12
+  {
+	position: absolute;
+	margin-left: 290px;
+	  margin-top: 65px;
+  }
+
+  #span13 , #span14
+  {
+	position: absolute;
+	margin-left: 290px;
+	  margin-top: 110px;
+  }
+
+  #span15 , #span16
+  {
+	position: absolute;
+	margin-left: 300px;
+	  margin-top: -15px;
+  }
+
+  #span17 , #span18
+  {
+	position: absolute;
+	margin-left: 290px;
+	  margin-top: 65px;
+  }
+
+  #span19 , #span20
+  {
+	position: absolute;
+	margin-left: 290px;
+	  margin-top: 110px;
+  }
+

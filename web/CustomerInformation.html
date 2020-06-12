@@ -1,0 +1,145 @@
+<html>
+<head>
+    <title> Customer Information</title>
+    <link rel="stylesheet" type="text/css" href="CustomerInformation.css"/>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    
+    <script src="CustomerInformation.js"></script>
+</head>
+
+  
+
+    <form action="AddCustomer" method="post">
+     <div id="rectangle">
+  
+      <div id="circle">
+        <div id="ims"> IMS </div>
+        <span>CU</span>
+      </div>
+  
+     </div>
+
+     <p id="hey"> CHANDIGARH UNIVERSITY </p>
+
+     <p id="imst"> INFORMATION MANAGEMENT SYSTEM </p>
+
+     <div id="rectangleleft"> </div>
+       
+     <div id="rectangleright"> </div>
+
+     <div id="rectanglebottom">
+       <div id="footer">
+                    <p>
+                        Chandigarh University, Gharuan, Mohali (Punjab)<br />
+                        General Helpline No:+91-160-3051003, +91-160-3014444<br />
+                        24*7*365 Security  Helpline Number:+91-8288094308<br />
+                        Wifi Hostels Helpline No. 7347017909 (Mr. Simranjeet Singh)
+                    </p>
+       </div>
+     </div>
+
+    <div id="rectanglemiddle" >
+       <fieldset name="pquestion" id="pquestion">
+         <legend id="heading"> PERSONAL INFORMATION </legend>
+
+       </br>
+         <label for="first_name"> First Name :  </label>
+           <input type="text" id="firstname" name="firstname" placeholder="Enter Customer Name" required> </br> </br>
+           <span id="span1">Valid</span> 
+           <span id="span2">Invalid</span> 
+
+         <label for="middlename"> Middle Name : </label>
+           <input type="text" id="middlename" name="middlename" placeholder="Enter Customer Middle Namme"> </br> </br>
+
+         <label for="lastname"> Last Name : </label>
+           <input type="text" id="lastname" name="lastname" placeholder="Enter Customer Last Name"> </br></br>
+
+          <label for="gender"> Gender : </label>
+           <input type="radio" name="gender" value="male"> Male
+           <input type="radio" name="gender" value="female"> Female </br> </br>
+
+         <label for="mobile"> Mobile : </label>
+           <input type="text" id="mobile" name="mobile" placeholder="Enter Mobile Number" required></br> </br>
+           <span id="span3">Valid</span> 
+           <span id="span4">Invalid</span> 
+
+         <label for="email"> Email : </label>
+           <input type="email" id="email" name="email" placeholder="Enter Email ID of Customer" required></br> </br>
+           <span id="span5">Valid</span> 
+           <span id="span6">Invalid</span> 
+
+         <label for="dateofbirth">Date Of Birth : </label>
+            <input type="date" id="dateofbirth" name="dateofbirth" placeholder="Enter date " required></br> </br>
+            <span id="span7">Valid</span> 
+            <span id="span8">Invalid</span> 
+
+       </fieldset>
+
+        <fieldset name="Customer_Address" id="EmployeeAddress">
+            <legend id="heading"> ADDRESS </legend>
+
+            <label for="house_no"> Street / House No :  </label>
+            <input type="text" id="house_no" name="house_no" placeholder="Enter House No"> </br> </br>
+
+            <label for="address_line"> Address Line : </label>
+            <input type="text" id="address_line" name="address_line" placeholder="Enter Address"> </br> </br>
+
+            <label for="village"> Village : </label>
+            <input type="text" id="village" name="village" placeholder="Enter Village Name"> </br></br>
+
+            <label for="post"> Post : </label>
+            <input type="text" id="post" name="post" placeholder="Enter Post Name"></br> </br>
+
+            <label for="city"> City : </label>
+            <input type="text" id="city" name="city" placeholder="Enter City Name" required></br> </br>
+
+            <label for="state"> State : </label>
+            <input type="text" id="state" name="state" placeholder="Enter State Name" required></br> </br>
+            <span id="span9">Valid</span> 
+            <span id="span10">Invalid</span> 
+
+            <label for="country"> Country : </label>
+            <input type="text" id="country" name="country" placeholder="Enter Country Name" required></br> </br>
+            <span id="span11">Valid</span> 
+            <span id="span12">Invalid</span> 
+
+            <label for="pincode"> Pincode : </label>
+            <input type="text" id="pincode" name="pincode" placeholder="Enter Pincode" required></br> </br>
+            <span id="span13">Valid</span> 
+            <span id="span14">Invalid</span> 
+
+        </fieldset>
+<!--
+        <form action="AddEmployee" method="post">
+        <fieldset name="Employee_Otp" id="otpheader">
+            <legend id="heading"> OTP </legend>
+
+            <label for="otp"> OTP :  </label>
+            <input type="text" id="otp12" name="otp" placeholder="Enter OTP"> </br> </br>
+            <button id="verifyOtp" name="action" value="verifyOTP"> VERIFY OTP </button>
+        
+        </fieldset>
+        </form>
+-->
+        <button id="backbutton" name="action" value="back"> BACK </button>
+        <button id="generatebutton" name="action" value="submit"> SUBMIT </button>	
+</div> 
+    </form>
+
+<div id="rectanglecyan"> 
+    <div id="attendence"> CUSTOMER REGISTRATION </div>
+</div>
+
+<div class="link" >
+       
+         
+		  <a class="home" href="">HOME</a></li>        
+</div>	 
+
+
+
+
+
+ </form>
+
+</html>

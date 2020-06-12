@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title> WELCOME PAGE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+	<link rel="stylesheet" type="text/css" href="CustomerLoginPage.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+  
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+   
+	<script type="text/javascript" src="CustomerLoginPage.js" ></script>
+
+</head>
+
+
+<body>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="SignUp" method="post">
+			<h2>FOR FAQ SIGN UP</h2>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fa fa-facebook"></i></a>
+				<a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+				<a href="#" class="social"><i class="fa fa-twitter"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" placeholder="Name" name="name" required/>
+			<input type="email" placeholder="Email" name="email"/>
+                        <button type="submit" value="signup" name="signup">Sign Up</button>
+		</form>
+                
+           
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="DeliverySignIn" method="post">
+			<h1>Sign in</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fa fa-facebook"></i></a>
+				<a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+				<a href="#" class="social"><i class="fa fa-twitter"></i></a>
+			</div>
+			
+			<input id="username" type="text" placeholder="Username" name="username" />
+
+			<div id="icon">
+			<i class="fa fa-check" aria-hidden="true" id="success"></i>
+           <i class="fa fa-times" aria-hidden="true" id="error"></i>
+		   <i class="fa fa-exclamation" aria-hidden="true" id="warning"></i>
+		   <br>
+		   <span id="span1">Enter a Valid Email</span>
+		   <span id="span2">This field cann't be empty</span>
+		</div>
+			
+			<input type="password" placeholder="Password" name="password"/>
+			<a href="CustomerPasswordForget1.html">Forgot your password?</a>
+			<button type="submit" value="signin" name="signin">Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="ghost" id="signUp">FAQ's</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="my.js"></script>
+</body>
+</html>
